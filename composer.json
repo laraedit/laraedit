@@ -1,0 +1,33 @@
+{
+    "name": "laraedit/laraedit",
+    "description": "The ultimate tool for laravel development.",
+    "keywords": ["laraedit", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek Bourgeois",
+            "email": "derek@ibourgeois.com"
+        }
+    ],
+     "support": {
+        "issues": "https://github.com/laraedit/laraedit/issues"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "LaraEdit\\": "src/"
+        }
+    }
+}
