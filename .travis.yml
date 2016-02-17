@@ -1,13 +1,24 @@
+# sudo: required
+# dist: trusty
+
 language: php
 
 php:
-  - 5.5
-  - 5.6
-  - 7.0
-  - hhvm
+    - 5.5
+    - 5.6
+    - 7.0
+    - hhvm
 
-before_script:
-  - travis_retry composer self-update
-  - travis_retry composer install --prefer-source --no-interaction --dev
+install:
+    - travis_retry composer self-update
+    - travis_retry composer clear-cache
+    - composer install
+    # - composer config -g github-oauth.github.com $GITHUB_TOKEN
+    # - composer create-project laravel/laravel
+    # - cd ./laravel
+    # - composer config repositories.laraedit vcs https://github.com/laraedit/laraedit.git
+    # - composer require laraedit/laraedit dev-master
+    # - composer update
+    # - cd ./vendor/laraedit/laraedit
 
 script: phpunit
