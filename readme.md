@@ -1,4 +1,4 @@
-# LaraEdit
+# LaraEdit [![Build Status](https://travis-ci.org/laraedit/laraedit.svg?branch=master)](https://travis-ci.org/laraedit/laraedit)
 
 ```
 WARNING: DO NOT INSTALL THIS PACKAGE IN A PRODUCTION ENVIRONMENT
