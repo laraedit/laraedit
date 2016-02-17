@@ -12,6 +12,7 @@ php:
 install:
     - travis_retry composer self-update
     - travis_retry composer clear-cache
+    - composer install
     # - composer config -g github-oauth.github.com $GITHUB_TOKEN
     # - composer create-project laravel/laravel
     # - cd ./laravel
