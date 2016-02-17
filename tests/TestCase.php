@@ -1,6 +1,6 @@
-<?php namespace LaraEdit\Tests;
+<?php
 
-class TestCase extends \Illuminate\Foundation\Testing\TestCase
+class TestCase extends TestCase
 {
     /**
      * The base URL to use while testing the application.
