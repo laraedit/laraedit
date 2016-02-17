@@ -18,7 +18,7 @@ before_install:
   - composer create-project laravel/laravel
   - cd ./laravel
   - composer config repositories.laraedit vcs https://github.com/laraedit/laraedit.git
-  - composer require laraedit dev
+  - composer require laraedit/laraedit dev
   - composer update
   - export APP_ENV="testing"
   - cd ./vendor/laraedit/laraedit
