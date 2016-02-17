@@ -1,4 +1,4 @@
-<?php
+<?php namespace LaraEdit\Tests;
 
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;

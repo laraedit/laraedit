@@ -27,7 +27,8 @@
             "src/database/"
         ],
         "psr-4": {
-            "LaraEdit\\": "src/"
+            "LaraEdit\\": "src/",
+            "LaraEdit\\Tests\\": "tests/"
         }
     }
 }
