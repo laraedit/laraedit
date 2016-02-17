@@ -4,13 +4,23 @@ dist: trusty
 language: php
 
 php:
-  - 5.5
-  - 5.6
-  - 7.0
-  - hhvm
+    - 5.5
+    - 5.6
+    - 7.0
+    - hhvm
 
-before_script:
-  - travis_retry composer self-update
-  - travis_retry composer install --prefer-source --no-interaction
+# before_script:
+#    - travis_retry composer self-update
+#    - travis_retry composer install --prefer-source --no-interaction
+
+before_install:
+  - composer self-update
+  - composer create-project laravel/laravel
+  - cd ./laravel
+  - composer config repositories.laraedit vcs https://github.com/laraedit/laraedit.git
+  - composer require laraedit dev
+  - composer update
+  - export APP_ENV="testing"
+  - cd ./vendor/laraedit/laraedit
 
 script: phpunit
