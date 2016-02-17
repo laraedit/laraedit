@@ -15,6 +15,6 @@ class Test extends TestCase
     {
         $this->visit('/')
              ->see('Laravel 5')
-             ->dontSee('');;
+             ->dontSee('Laravel 4');;
     }
 }
