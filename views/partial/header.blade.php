@@ -7,7 +7,7 @@
             	<span class="icon-bar"></span>
             	<span class="icon-bar"></span>
           	</button>
-          	<a class="navbar-brand" href="/laraedit">LaraEdit</a>
+          	<a class="navbar-brand" href="/{{ Config::get('laraedit.uri') }}">LaraEdit</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           	<ul class="nav navbar-nav">
