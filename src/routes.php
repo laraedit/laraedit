@@ -1,7 +1,6 @@
 <?php
 
-// Route::group(array('prefix' => Config::get('laraedit::laraedit.uri')), function()
-Route::group(array('prefix' => 'laraedit'), function()
+Route::group(array('prefix' => Config::get('laraedit.uri')), function()
 {
 	
 	Route::get('/', array(
