@@ -1,0 +1,85 @@
+body {
+	background: #515B6A;
+}
+
+.navbar {
+	background: #F56D59;
+	height: 64px;
+	border: 0;
+}
+
+.navbar .navbar-brand {
+	color: #FFFFFF;
+	line-height: 64px;
+	padding-top: 4px;
+	font-size: 20pt;
+	height: 64px;
+	font-family: 'Orbitron';
+	font-weight: 900;
+}
+
+.navbar .nav li > a {
+	padding-top: 0;
+	height: 64px;
+	line-height: 64px;
+	color: #FFFFFF;
+}
+
+.navbar .nav li > a.button {
+	width: 64px;
+	text-align: center;
+	font-size: 14pt;
+}
+
+.navbar .nav li > a:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+	background: #353D49;
+	width: 64px;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	top: 64px;
+	bottom: 0;
+	z-index: 999;
+}
+
+.toolbar-button {
+	display: block;
+	width: 64px;
+	height: 64px;
+	color: #FFFFFF;
+	line-height: 64px;
+	text-align: center;
+	font-size: 18pt;
+}
+
+.toolbar-button .tag {
+	display: none;
+	font-size: 12pt;
+	position: relative;
+	left: -200px;
+	top: -64px;
+	width: 200px;
+	background: rgba(53, 61, 73, 0.9);
+} 
+
+.toolbar-button:hover {
+	background: rgba(0, 0, 0, 0.2);
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.toolbar-button:hover > .tag {
+	display: block;
+}
+
+#editor { 
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    bottom: 0;
+    left: 0;
+}
