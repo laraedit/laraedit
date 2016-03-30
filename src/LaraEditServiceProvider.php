@@ -14,6 +14,10 @@ class LaraEditServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        $this->publishes([
+            __DIR__ . '/../config' => base_path('config'),
+        ], 'config');
+
     	$this->publishes([
         	__DIR__ . '/../public' => public_path('vendor/laraedit'),
     	], 'public');
