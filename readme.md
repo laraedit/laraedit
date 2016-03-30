@@ -10,7 +10,7 @@ The goal behind LaraEdit is to provide a development environment that can be acc
 
 If this sounds like it may be too good to be true, stick around and watch this magic happen. If your wondering what such a package would even be good for, move along. If you are curious, [ask your questions in the issues](https://github.com/laraedit/laraedit/issues)
 
-![LaraEdit v0.0.1 Screenshot](laraedit-v0.0.1.png)
+![LaraEdit v0.0.2 Screenshot](laraedit-v0.0.2.png)
 
 ## Installation
 ```

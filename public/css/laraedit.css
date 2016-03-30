@@ -31,6 +31,25 @@ body {
 	font-size: 14pt;
 }
 
+.navbar .nav li > a.button .badge {
+	background: #515B6A;
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+
+.navbar .nav li > a.dropdown {
+	padding-top: 0;
+	height: 64px;
+	line-height: 64px;
+	color: #FFFFFF;
+}
+
+.navbar .nav li > a.dropdown img.avatar {
+	height: 40px;
+	width: 40px;
+}
+
 .navbar .nav li > a:hover {
 	background: rgba(0, 0, 0, 0.1);
 }
