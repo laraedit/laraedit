@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron:400,900">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 
-		<link rel="stylesheet" href="/vendor/laraedit/css/laraedit.css">
+		<link rel="stylesheet" href="{{ url ('/vendor/laraedit/css/laraedit.css') }}">
 
 		<!--[if lt IE 9]>
       		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -42,7 +42,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ace.js"></script>
-		<script src="/vendor/laraedit/js/ace.laraedit-default.js"></script>
-		<script src="/vendor/laraedit/js/laraedit.js"></script>
+		<script src="{{ url ('/vendor/laraedit/js/ace.laraedit-default.js') }}"></script>
+		<script src="{{ url ('/vendor/laraedit/js/laraedit.js') }}"></script>
 	</body>
 </html>
